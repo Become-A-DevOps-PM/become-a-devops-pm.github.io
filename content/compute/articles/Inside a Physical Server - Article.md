@@ -1,5 +1,5 @@
 +++
-title = "What is a Server?"
+title = "Inside a Physical Server"
 weight = 3
 date = 2024-11-17
 draft = false
