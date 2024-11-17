@@ -1,4 +1,3 @@
 +++
-title = "Github repo"
-head ="<label>Hello</label> "
+title = "DevOps For PM"
 +++
