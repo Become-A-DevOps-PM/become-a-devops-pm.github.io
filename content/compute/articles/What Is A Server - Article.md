@@ -9,11 +9,11 @@ draft = false
 
 In IT, **servers** are essential, providing the **computing power** behind applications, websites, and databases. This article breaks down the server concept, focusing on its role as a **compute resource**, from physical machines to serverless functions.
 
-#### The Purpose of a Server
+## The Purpose of a Server
 
 A **server** is a compute resource designed to process requests and deliver services to other devices, called clients, over a network. Traditionally, servers were physical machines, but now they include virtual machines, containers, and serverless functions. Despite these variations, the primary role remains the same: process workloads and deliver services.
 
-#### Key Characteristics of a Server
+## Key Characteristics of a Server
 
 - **Processing Power**: A server has CPU, memory, and storage resources to execute tasks.
 - **Networking**: It is network-connected, allowing communication with other clients or services.
@@ -21,7 +21,8 @@ A **server** is a compute resource designed to process requests and deliver serv
 - **Flexible Deployment**: A server can be deployed in different environments - on physical hardware (bare-metal), as a virtual machine, in containers, or as abstracted serverless functions.
 
 Servers are often described by the **role** they play, such as a **web server** or a **database server**, but fundamentally, they are compute resources allocated to perform specific tasks.
-#### Servers as Compute Resources
+
+## Servers as Compute Resources
 
 Servers come in different forms based on the level of abstraction.
 
@@ -49,7 +50,7 @@ Servers come in different forms based on the level of abstraction.
    - **Common Synonyms**: Function-as-a-Service (FaaS), event-driven computing.
    - **Cloud Examples**: AWS Lambda, Azure Functions, Google Cloud Functions.
 
-#### Choosing the Right Compute Resource
+## Choosing the Right Compute Resource
 
 As compute resources, servers are essential for running applications and services. Their form depends on the specific needs of the project:
 
@@ -65,6 +66,6 @@ IT architects must choose the appropriate compute resource based on performance,
 - **Cost**: Serverless functions are typically pay-as-you-go, making them cost-efficient for variable workloads. VMs offer predictable pricing for long-running tasks.
 - **Control**: Physical servers and VMs provide more control over the environment, which is useful for specialized applications.
 
-#### Conclusion
+## Conclusion
 
 A **server** in modern IT can be a physical machine, virtual machine, container, or serverless function. Each has different levels of abstraction, control, and scalability. It's important to understand these options to match the right compute resource with the project's technical and business needs.
