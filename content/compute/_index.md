@@ -1,4 +1,5 @@
 +++
 title = "Compute"
-head ="<label>Compute</label> "
+weight = 1
+head ="<label>Basic IT</label> "
 +++
