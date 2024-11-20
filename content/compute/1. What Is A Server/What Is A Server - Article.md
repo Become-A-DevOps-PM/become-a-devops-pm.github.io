@@ -5,97 +5,18 @@ date = 2024-11-17
 draft = false
 +++
 
-Servers are the backbone of modern IT, providing the essential computing power that drives applications, websites, and databases. This article explores the concept of servers as compute resources, detailing their evolution from traditional physical machines to virtual machines, containers, and serverless functions. Understanding the types, characteristics, and appropriate use cases for each server type is crucial for IT professionals to make informed decisions that align with project needs and business goals.
+[Watch the Presentation]({{< relref "What Is A Server - Slide.md" >}})
 
-{{<revealjs theme="sky" progress="true" controls= "true">}}
+Listen to the article
 
-## What is a Server?
-
-- Servers provide the computing power behind applications, websites databases and much more.
-- A server processes client requests and delivers services across a network.
-
----
-
-## Key Characteristics
-
-- **Processing Power**: Equipped with CPU, memory, and storage to execute tasks.
-- **Networking**: Enables communication with clients and other services.
-- **Service-Oriented**: Provides applications, databases, file storage, etc to users.
+<!-- <audio controls>
+<source src="/audio/what-is-a-server.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio> -->
 
 ---
 
-## Types of Servers
-
-- While traditionally physical, servers now include virtual machines, containers, and serverless functions.
-
----
-
-## Physical Servers
-(Bare-Metal)
-
-- Dedicated hardware running applications and storing data.
-- Provides full control and performance but requires more management.
-- Examples: AWS Bare Metal Instances, Azure BareMetal Servers.
-
----
-
-## Virtual Machines
-(VMs)
-
-- Software-based emulation running on a physical host.
-- Allows multiple isolated environments on shared hardware, increasing efficiency.
-- Examples: AWS EC2 Instances, Azure VMs, Google Cloud Compute Engine.
-
----
-
-## Containers
-(Docker)
-
-- Lightweight, portable environments for running applications.
-- Share the host’s OS but keep processes isolated for efficiency.
-- Ideal for microservices architectures.
-- Examples: AWS ECS Tasks, Azure Container Instances, GKE Pods.
-
----
-
-## Serverless Functions
-
-- Abstract the need for infrastructure management.
-- Code is event-triggered and managed by cloud providers.
-- Suitable for scalable tasks with minimal overhead.
-- Examples: AWS Lambda, Azure Functions, Google Cloud Functions.
-
----
-
-## Choosing the Right Type
-
-- **Physical Servers**: Offer maximum control, suitable for specialized needs.
-- **Virtual Machines**: Provide flexibility and isolation without the physical hardware overhead.
-- **Containers**: Efficient, scalable, ideal for modern, distributed applications.
-- **Serverless**: Eliminates infrastructure concerns, focusing on code and rapid scaling.
-
----
-
-## Factors to Consider
-
-- **Performance**: High-demand tasks favor physical servers or VMs.
-- **Scalability**: Containers and serverless functions excel in handling varying workloads.
-- **Cost**: Serverless options offer pay-as-you-go models; VMs provide predictable pricing.
-- **Control**: Physical servers and VMs offer more environmental control, critical for specific applications.
-
----
-
-## Conclusion
-
-- Modern IT solutions encompass a range of server types from physical to serverless.
-- Understanding the differences and benefits of each helps align compute resources with project needs.
-- Flexibility in server selection is crucial for building efficient, scalable, and cost-effective infrastructure.
-
-{{</revealjs>}}
-
----
-
-# What is a Server?
+<!-- # What is a Server? -->
 
 In IT, **servers** are essential, providing the **computing power** behind applications, websites, and databases. This article breaks down the server concept, focusing on its role as a **compute resource**, from physical machines to serverless functions.
 
