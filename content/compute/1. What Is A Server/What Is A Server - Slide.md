@@ -7,7 +7,6 @@ hidden = true
 
 theme = "sky"
 [revealOptions]
-transition = "concave"
 controls= true
 progress= true
 history= true
@@ -87,6 +86,3 @@ center= true
 - **Scalability**: Containers and serverless functions excel in handling varying workloads.
 - **Cost**: Serverless options offer pay-as-you-go models; VMs provide predictable pricing.
 - **Control**: Physical servers and VMs offer more environmental control, critical for specific applications.
-
----
-
