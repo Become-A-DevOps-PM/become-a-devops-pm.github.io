@@ -18,7 +18,7 @@ Your browser does not support the audio element.
 
 <!-- # What is a Server? -->
 
-In IT, **servers** are essential, providing the **computing power** behind applications, websites, and databases. This article breaks down the server concept, focusing on its role as a **compute resource**, from physical machines to serverless functions.
+In IT, **servers** provide the **computing power** behind applications, websites, and databases. This article breaks down the server concept, focusing on its role as a **compute resource**, from physical machines to serverless functions.
 
 ## The Purpose of a Server
 

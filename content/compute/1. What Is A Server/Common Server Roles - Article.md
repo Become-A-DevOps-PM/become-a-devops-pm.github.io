@@ -7,7 +7,7 @@ draft = false
 
 <!-- # Common Server Roles -->
 
-Servers are the backbone of IT infrastructure, each designed to fulfill specific roles that cater to the needs of networks, businesses, and applications. These roles provide a range of services. Here’s a brief overview of the most common server roles. At the end we make a deeper dive into Web Servers, Application Servers, Reverse Proxies and Bastion Hosts.
+Servers are designed to fulfill specific roles that cater to the needs of businesses and applications. These roles provide a range of services. Here’s a brief overview of the most common server roles. At the end we make a deeper dive into Web Servers, Application Servers, Reverse Proxies and Bastion Hosts.
 
 ## Overview of Common Server Roles
 
