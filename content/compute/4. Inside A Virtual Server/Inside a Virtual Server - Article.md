@@ -5,6 +5,10 @@ date = 2024-11-17
 draft = false
 +++
 
+[Watch the presentation]({{< relref "Inside a Virtual Server - Slides.md" >}})
+
+[Se presentationen på svenska]({{< relref "Inside a Virtual Server - Slides Swe.md" >}})
+
 <!-- # Inside a Virtual Server? -->
 
 Virtual servers offer flexibility and scalability beyond the physical limits of hardware. While physical servers house tangible components like CPUs and RAM, virtual servers present a different structure. It's essential to understand the components inside a virtual server and how they contrast with physical servers. This article dives into what makes up a virtual server. We will also correlate these to the components seen in Azure Virtual Machines (VMs).

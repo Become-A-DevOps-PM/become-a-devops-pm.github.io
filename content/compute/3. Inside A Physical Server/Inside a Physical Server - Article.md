@@ -5,6 +5,10 @@ date = 2024-11-17
 draft = false
 +++
 
+[Watch the presentation]({{< relref "Inside a Physical Server - Slides.md" >}})
+
+[Se presentationen på svenska]({{< relref "Inside a Physical Server - Slides Swe.md" >}})
+
 <!-- # What’s Inside a Physical Server? -->
 
 Physical servers are built to handle extensive workloads, host applications, store data and much more. Understanding the components within a server is essential for planning, troubleshooting, and management. This article breaks down the internal parts of a physical server and their function.
