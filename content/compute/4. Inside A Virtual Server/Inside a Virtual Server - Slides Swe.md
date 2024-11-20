@@ -54,4 +54,4 @@ center= true
 - **vCPU och RAM**: Välj konfigurationer baserade på behov (t.ex. B-serien för "burstable" workload).
 - **Virtuella diskar**: Azure Managed Disks för lagring.
 - **Nätverk**: vNet och NSGs för nätverk.
-- **Verktyg**: Använd Azure Monitor och ARM-mallar för automatisering och övervakning.
+- **Verktyg**: Använd Azure Monitor och ARM-mallar för automatisering och övervakning
