@@ -5,7 +5,9 @@ date = 2024-11-17
 draft = false
 +++
 
-[Watch the Presentation]({{< relref "What Is A Server - Slide.md" >}})
+[Watch the presentation]({{< relref "What Is A Server - Slides.md" >}})
+
+[Se presentationen på svenska]({{< relref "What Is A Server - Slides Swe.md" >}})
 
 <!-- Listen to the article -->
 

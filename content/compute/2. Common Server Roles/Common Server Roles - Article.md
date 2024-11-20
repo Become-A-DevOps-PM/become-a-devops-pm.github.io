@@ -5,6 +5,10 @@ date = 2024-11-17
 draft = false
 +++
 
+[Watch the presentation]({{< relref "Common Server Roles - Slides.md" >}})
+
+[Se presentationen på svenska]({{< relref "Common Server Roles - Slides Swe.md" >}})
+
 <!-- # Common Server Roles -->
 
 Servers are designed to fulfill specific roles that cater to the needs of businesses and applications. These roles provide a range of services. Here’s a brief overview of the most common server roles. At the end we make a deeper dive into Web Servers, Application Servers, Reverse Proxies and Bastion Hosts.
