@@ -5,13 +5,9 @@ date = 2024-11-25
 draft = false
 +++
 
-# Exercise 4: Creating a Resource Group Using AZ CLI
-
 ## Overview
 
 This exercise introduces the **Azure CLI** for managing Azure resources. You will use Azure CLI commands to create a resource group and verify its creation.
-
-## Step-by-Step Instructions
 
 ### Step 1: Log in to Azure Cloud Shell
 
@@ -58,7 +54,7 @@ This exercise introduces the **Azure CLI** for managing Azure resources. You wil
 > 
 > A **Resource Group** acts as a container for all resources within Azure, making it easier to organize, manage, and delete resources as a single unit.
 
-### Step 4: Clean Up Resources (Optional)
+### Step 3: Clean Up Resources (Optional)
 
 1. Delete the resource group to avoid unnecessary costs:
 

@@ -5,13 +5,9 @@ date = 2024-11-25
 draft = false
 +++
 
-# Exercise 2: Provisioning a VM with SSH Keys
-
 ## Overview
 
 This exercise introduces secure SSH authentication using **Azure Portal's Generate Key Pair feature**. You will also connect to the VM using SSH from your local (your laptop) Terminal. While logged in we will explore the Linux filesystem with basic command-line utilities.
-
-## **Step-by-Step Instructions**
 
 ### Step 1: Log in to Azure Portal
 

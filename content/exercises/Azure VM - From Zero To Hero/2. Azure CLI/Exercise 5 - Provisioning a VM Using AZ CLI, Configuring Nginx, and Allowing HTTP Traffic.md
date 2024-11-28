@@ -5,14 +5,9 @@ date = 2024-11-25
 draft = false
 +++
 
-# Exercise 5: Provisioning a VM Using AZ CLI, Configuring Nginx, and Allowing HTTP Traffic
-
 ## Overview
 
 This exercise introduces creating a Virtual Machine (VM) with **Azure CLI**, using default SSH keys for secure authentication, installing Nginx, and configuring the network to allow HTTP traffic. You will work exclusively in the **VSCode Integrated Terminal** (Windows users: Make sure you use **Git Bash**).
-
-
-## Step-by-Step Instructions
 
 ### Step 1: Set Up the Environment
 
@@ -153,7 +148,7 @@ This exercise introduces creating a Virtual Machine (VM) with **Azure CLI**, usi
 	> Azure VMs block HTTP traffic on port 80 by default for security reasons. You need to explicitly allow HTTP traffic.
 
 
-### Step 7: Open Port 80 for HTTP Traffic
+### Step 6: Open Port 80 for HTTP Traffic
 
 1. Make sure you return back to your laptop in the Terminal:
 
@@ -178,7 +173,7 @@ This exercise introduces creating a Virtual Machine (VM) with **Azure CLI**, usi
 	>
 	> Return to the browser and refresh the page. Confirm the default Nginx page loads in the browser, indicating port 80 is open and traffic is allowed.
 
-### Step 9: Clean Up Resources (Optional)
+### Step 7: Clean Up Resources (Optional)
 
 1. Delete the resource group to avoid unnecessary costs:
 

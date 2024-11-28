@@ -5,12 +5,8 @@ date = 2024-11-25
 draft = false
 +++
 
-# Exercise 6: Automating VM Creation, Nginx Installation, and Port Configuration Using a Bash Script
-
 ## Overview
 In this exercise, you will create a Bash script that automates the provisioning of a resource group, a VM, and the opening of port 80. You will also use a **custom data file** to automatically install and configure Nginx on the VM during provisioning. This exercise enables a "one-click" solution for deploying a web server.
-
-## **Step-by-Step Instructions**
 
 ### Step 1: Prepare the Custom Data File
 

@@ -5,13 +5,9 @@ date = 2024-11-25
 draft = false
 +++
 
-# Exercise 1: Provisioning a VM via Azure Portal with Username/Password
-
 ## Overview
 
 This exercise introduces the Azure Portal, guiding you through the creation of a Virtual Machine (VM). You will configure an Ubuntu Linux VM with a username/password for access and verify that the VM is running successfully by logging into the VM from Azure Cloud Shell.
-
-## **Step-by-Step Instructions**
 
 ### Step 1: Log in to Azure Portal
 1. Open a web browser and navigate to the [Azure Portal](https://portal.azure.com/).
@@ -127,7 +123,6 @@ This exercise introduces the Azure Portal, guiding you through the creation of a
    > ✅ **Verification Step:**
    >
    > After deletion, go back to the **Resource Groups** page in the Azure Portal and confirm that `LabResourceGroup` no longer appears in the list. Refresh the page if necessary. It can take a minute or two before it has finalized the operation.
-
 
 ## Exercise Complete!
 You have successfully provisioned a Virtual Machine in Azure using the portal and connected to it using Azure Cloud Shell. You also verified its operation by installing and testing the web server Nginx.

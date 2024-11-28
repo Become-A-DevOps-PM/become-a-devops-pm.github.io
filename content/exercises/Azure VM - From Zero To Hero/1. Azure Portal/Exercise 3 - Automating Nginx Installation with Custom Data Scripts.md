@@ -5,13 +5,9 @@ date = 2024-11-25
 draft = false
 +++
 
-# Exercise 3: Automating Nginx Installation with Custom Data Scripts
-
 ## Overview
 
 This exercise introduces the use of **custom data scripts** to automate the installation of Nginx during VM provisioning. You will also edit the default Nginx index page to display custom content.
-
-## Step-by-Step Instructions
 
 ### Step 1: Log in to Azure Portal
 
