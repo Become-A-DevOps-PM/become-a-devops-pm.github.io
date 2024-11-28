@@ -32,11 +32,13 @@ This exercise introduces secure SSH authentication using **Azure Portal's Genera
    - **Authentication Type**: Select **SSH Public Key**.
    - **Username**: `azureuser`.
 3. Under **SSH Public Key Source**, select **Generate new key pair**.
-4. Note the name for your key pair (e.g., `LabSSHKey`) and click **Download private key and create resource**.
+4. Configure inbound ports:
+   - Check **Allow selected ports** and select **HTTP (80)** and **SSH (22)**.
+5. Note the name for your key pair (e.g., `LabSSHKey`) and click **Download private key and create resource**.
 
-   > 💡 **Information**  
-   >
-   > The **Generate new key pair** option allows you to securely create an SSH key pair. The private key will be downloaded to your computer and should be stored securely. Azure automatically applies the corresponding public key to the VM.
+> 💡 **Information**  
+>
+> The **Generate new key pair** option allows you to securely create an SSH key pair. The private key will be downloaded to your computer and should be stored securely. Azure automatically applies the corresponding public key to the VM.
 
 ### Step 3: Secure the SSH Private Key (Only Mac And Linux Users)
 

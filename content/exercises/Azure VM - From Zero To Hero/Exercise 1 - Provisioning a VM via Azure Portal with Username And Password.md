@@ -105,7 +105,7 @@ This exercise introduces the Azure Portal, guiding you through the creation of a
    >
    > 2) Run the command `curl localhost`. Ensure you get som HTML code back. This means that it runs correctly regardless of firewall settings.
    >
-   > 3) Open a browser and go to the <VM_Public_IP>. You should see the **"Welcome to Nginx!"** default page.
+   > 3) Open a browser and go to the `<VM_Public_IP>`. You should see the **"Welcome to Nginx!"** default page.
 
 
 ### Step 6: Clean Up Resources (Optional)
