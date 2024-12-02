@@ -5,6 +5,11 @@ date = 2024-11-19
 draft = false
 +++
 
+
+[Watch the presentation]({{< relref "What Is A Network - Slides.md" >}})
+
+[Se presentationen på svenska]({{< relref "What Is A Network - Slides Swe.md" >}})
+
 <!-- # What is a Network? -->
 
 A network is an interconnected system of devices designed to facilitate communication, data exchange, and resource sharing. Networks play a critical role in IT infrastructure, supporting everything from basic file sharing to the operation of complex distributed applications and services.

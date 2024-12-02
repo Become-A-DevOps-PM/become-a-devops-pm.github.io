@@ -5,6 +5,10 @@ date = 2024-11-19
 draft = false
 +++
 
+[Watch the presentation]({{< relref "Network Intermediaries - Slides.md" >}})
+
+[Se presentationen på svenska]({{< relref "Network Intermediaries - Slides Swe.md" >}})
+
 <!-- # Network Intermediaries -->
 
 This article explains how network intermediaries like **proxies**, **reverse proxies**, and **load balancers** enhance network security, performance, and traffic management.

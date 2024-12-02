@@ -5,6 +5,10 @@ date = 2024-11-19
 draft = false
 +++
 
+[Watch the presentation]({{< relref "Firewalls - Slides.md" >}})
+
+[Se presentationen på svenska]({{< relref "Firewalls - Slides Swe.md" >}})
+
 <!-- # Firewalls -->
 
 Firewalls acts as a protective barrier between trusted internal networks and untrusted external ones, such as the internet. By filtering and controlling the flow of network traffic based on predefined security rules, firewalls help prevent unauthorized access, cyberattacks, and other potential threats. Their primary function is to allow legitimate traffic while blocking any harmful or unauthorized data.

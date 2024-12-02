@@ -5,6 +5,10 @@ date = 2024-11-19
 draft = false
 +++
 
+[Watch the presentation]({{< relref "The OSI Model - Slides.md" >}})
+
+[Se presentationen på svenska]({{< relref "The OSI Model - Slides Swe.md" >}})
+
 <!-- # The OSI Model -->
 
 The **OSI Model** (Open Systems Interconnection Model) is a framework that breaks down network communication into seven distinct layers. Each layer has a specific function that supports the transmission and reception of data across networks. This model standardizes how different systems communicate, ensuring compatibility and reliability in data transfer.

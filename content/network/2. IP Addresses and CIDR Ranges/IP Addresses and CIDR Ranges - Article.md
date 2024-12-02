@@ -5,6 +5,10 @@ date = 2024-11-19
 draft = false
 +++
 
+[Watch the presentation]({{< relref "IP Addresses and CIDR Ranges - Slides.md" >}})
+
+[Se presentationen på svenska]({{< relref "IP Addresses and CIDR Ranges - Slides Swe.md" >}})
+
 <!-- # IP Addresses and CIDR Ranges -->
 
 In networking, the smooth flow of data between devices relies on fundamental components such as **IP addresses**, **CIDR ranges**, **subnets**, and **Network Interface Cards (NICs)**. Understanding how these elements work together is essential for managing networks effectively, whether in a local environment or the cloud.

@@ -5,6 +5,10 @@ date = 2024-11-19
 draft = false
 +++
 
+[Watch the presentation]({{< relref "Databases - Slides.md" >}})
+
+[Se presentationen på svenska]({{< relref "Databases - Slides Swe.md" >}})
+
 <!-- # Databases -->
 
 A **database** is a structured collection of data stored and organized to facilitate easy access, retrieval, and management. Databases are crucial to the operation of almost all digital systems, from websites and mobile apps to complex business applications and enterprise software. They provide a reliable way to store vast amounts of data while supporting efficient processing and analysis, enabling organizations to handle transactions, generate reports, and make informed decisions.

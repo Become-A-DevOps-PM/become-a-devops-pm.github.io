@@ -5,6 +5,10 @@ date = 2024-11-19
 draft = false
 +++
 
+[Watch the presentation]({{< relref "Storage - Slides.md" >}})
+
+[Se presentationen på svenska]({{< relref "Storage - Slides Swe.md" >}})
+
 <!-- # Storage -->
 
 **Storage** refers to the systems and devices used to save, retrieve, and manage data. It is ensuring that data remains persistently available for various purposes, including running applications, storing files, and maintaining databases. Storage solutions cater to a wide range of needs, from personal file storage on laptops to large-scale data storage in enterprises and cloud environments.

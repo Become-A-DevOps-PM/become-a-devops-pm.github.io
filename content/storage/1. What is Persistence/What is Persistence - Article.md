@@ -5,6 +5,10 @@ date = 2024-11-19
 draft = false
 +++
 
+[Watch the presentation]({{< relref "What is Persistence - Slides.md" >}})
+
+[Se presentationen på svenska]({{< relref "What is Persistence - Slides Swe.md" >}})
+
 <!-- # What is Persistence? -->
 
 **Persistence** in data management refers to the capability of data to be stored in a non-volatile medium, allowing it to survive beyond the lifespan of the process that created it. Simply put, persistence ensures that data remains intact and accessible even after an application or system that generated it has stopped running or encountered failure.

@@ -5,6 +5,10 @@ date = 2024-11-19
 draft = false
 +++
 
+[Watch the presentation]({{< relref "Private and Public Networks - Slides.md" >}})
+
+[Se presentationen på svenska]({{< relref "Private and Public Networks - Slides Swe.md" >}})
+
 <!-- # Private and Public Networks -->
 
 This article explores how private networks create secure, internal communication environments using non-routable IP addresses, while public networks facilitate global connectivity with public IPs. Understanding the unique characteristics, benefits, and challenges of each network type provides valuable insight into their use cases and how they connect with the wider internet.
