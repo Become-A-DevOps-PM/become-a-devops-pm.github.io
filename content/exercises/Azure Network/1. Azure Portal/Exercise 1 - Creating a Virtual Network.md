@@ -65,12 +65,12 @@ The objective of this exercise is to create a Virtual Network (vNet) with a defa
    - Go to the advanced tab
 	   - Use custom data to install nginx
 		   
-		   ```bash
-		   #!/bin/bash
-			
-			apt update
-			apt install nginx -y
-			```
+		```bash
+		#!/bin/bash
+
+		apt update
+		apt install nginx -y
+		```
 		
    - Click **Review + create** and then **Create**.
 
