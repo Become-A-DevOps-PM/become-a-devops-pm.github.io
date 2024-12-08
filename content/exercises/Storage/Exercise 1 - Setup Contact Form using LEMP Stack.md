@@ -261,3 +261,66 @@ phpMyAdmin is a web based administrative tool for MySQL. It makes it much easier
 > 2. Login using your credentials (admin / S3cr3t)
 > 3. You can now see schemas, tables, users, etc in the local MySQL Database Instance
 > 
+
+### Install A Local Reverse Proxy (optional)
+
+In order to create a more complete DEV environment for an app running on the LEMP stack, we can configure a local Reverse Proxy on the same VM
+
+In order to have the reverse proxy listen to port 80 we need first to change the current Nginx server block to another port like 8080. For development purposes we also open port 8080 in the firewall in order to be able to directly access the application without going through the reverse proxy
+
+1. Open NSG for port 8080
+
+	```bash
+	az vm open-port --resource-group LempRG --name LempVM --port 8080 --priority 1011
+	```
+
+2. Change site to listen to port 8080 and add a new server block for the Reverse Proxy
+
+	```bash
+	sudo nano /etc/nginx/sites-available/default
+	```
+	
+	```
+	server {
+	  listen 8080;
+	  server_name _;
+	
+	  root /var/www/html;
+	  index index.php index.html index.htm index.nginx-debian.html;
+	
+	  location / {
+	    try_files $uri $uri/ =404;
+	  }
+	
+	  location ~ \.php$ {
+	    include snippets/fastcgi-php.conf;
+	    fastcgi_pass unix:/var/run/php/php8.1-fpm.sock; # Adjust PHP version if necessary
+	    fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+	    include fastcgi_params;
+	  }
+	}
+	
+	server {
+	  listen 80;
+	  location / {
+	    proxy_pass http://localhost:8080/;
+	    proxy_set_header Host $host;
+	    proxy_set_header X-Real-IP $remote_addr;
+	    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+	  }
+	}
+	```
+	
+	```bash
+	sudo systemctl restart nginx
+	```
+
+> ✅ **Verification Step:**  
+> 
+> 
+> 1. Open your browser and visit `http://<VM_Public_IP>`.
+> 2. You should still be able to see your contact form page
+> 
+> 3. Open your browser and visit `http://<VM_Public_IP>:8080`.
+> 4. You should be able to see your contact form page. In this case you bypass the reverse proxy and go directly to the app without going through the reverse proxy
+> 
