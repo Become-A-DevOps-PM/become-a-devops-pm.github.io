@@ -14,31 +14,24 @@ history= true
 center= true
 +++
 
-## Vad är Persistens?
-- Ett systems förmåga att behålla data över tid.
-- Viktigt för applikationer som kräver datalagring och hämtning.
+## Vad är persistens?
+- Data som lagras över tid på ett permanent lagringsmedium (non-volatile).
+- Klarar strömavbrott.
+- Data finns kvar även efter att applikationen som skapat det inte finns kvar
 
 ---
 
-## Typer av Persistens
-1. **Volatil Lagring**:
-   - Temporär lagring (t.ex. RAM).
-   - Data förloras när strömmen stängs av.
-
-2. **Icke-Volatil Lagring**:
-   - Permanent lagring (t.ex. HDD, SSD).
-   - Data finns kvar även efter strömavbrott.
+## Medium för persistens
+- HDD - Hard Disk Drives (magnetskiva)
+- SSD - Solid State Disk (flash-minne, inga rörliga delar)
+- Optiska Medium (CD, DVD)
+- Magnetband (oftast för backup)
+- Molnlagring (Amazon S3, Azure Blob Storage)
 
 ---
 
-## Persistens inom IT
+## Typer av persistens
+- **Block Storage**: För filsystem. Hårddiskar eller SAN (iSCSI)
+- **File Storage**: Hanterar filer och kataloger likt ett filsystem. NAS (SMB, CIFS, NFS)
+- **Object Storage**: För objekt, likt filer, men utan hierarki i kataloger. (HTTP/S)
 - **Databaser**: Lagrar strukturerad data för enkel åtkomst och manipulation.
-- **Filsystem**: Hanterar filer på disk för långvarig lagring.
-- **Nyckel-Värde Lagring**: Ger snabb åtkomst till data med hjälp av nycklar (t.ex. Redis).
-
----
-
-## Vikt av Persistens
-- Säkerställer datakontinuitet och tillförlitlighet.
-- Möjliggör återhämtning vid fel.
-- Stöder affärsverksamhet och användarupplevelse.

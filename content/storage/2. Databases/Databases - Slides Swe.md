@@ -15,26 +15,40 @@ center= true
 +++
 
 ## Vad är en Databas?
-- En strukturerad samling av data lagrad elektroniskt.
-- Möjliggör effektiv lagring, hämtning och hantering av information.
+- Lagrar _strukturerad_ data (ex. tabeller, dokument, tidsserier).
+- Gör det möjligt att söka i data (ex. SQL Structured Query Language).
+- Upprätthåller _dataintegritet_ (ex. Primary keys, foreign keys, not null, unique, 1->n, n->n)
 
 ---
 
 ## Typer av Databaser
-1. **Relational Databaser**:
+**Relationsdatabaser**
    - Använder tabeller med rader och kolumner (t.ex. MySQL, PostgreSQL).
    - Structured Query Language (SQL) för datamanipulation.
 
-2. **NoSQL Databaser**:
-   - Designade för ostrukturerad eller semistrukturerad data (t.ex. MongoDB, DynamoDB).
-   - Flexibla scheman för olika datatyper.
+---
 
-3. **In-Memory Databaser**:
+## Typer av Databaser
+**NoSQL-databaser**
+   - Designade för semistrukturerad data (t.ex. MongoDB, DynamoDB).
+   - Flexibla scheman för olika datatyper (dokument, key-value)
+
+---
+
+## Typer av Databaser
+**In-Memory-databaser**
    - Lagrar data i RAM för snabb åtkomst (t.ex. Redis, Memcached).
 
 ---
 
-## Nyckelbegrepp
-- **Schema**: Definierar datans struktur i en databas.
-- **Transaktioner**: Säkerställer datakonsistens genom atomiska operationer.
-- **Index**: Snabbar upp datahämtning genom att organisera data för snabb åtkomst.
+## Typer av Databaser
+**Tidsseriedatabaser**
+   - Speciellt designade för att hantera tidsstämplad data (ex. loggar)
+
+---
+
+| **Koncept**             | **Fokus**                  | **Innehåll**                                                                 |
+|--------------------------|----------------------------|------------------------------------------------------------------------------|
+| **Databas**             | Logisk container för data | Data och metadata; en eller flera scheman.              |
+| **Schema**              | Logisk struktur           | Tabeller och relationer. |
+| **Databasinstans**      | Den körande processen   | Själva programmet.                 | 

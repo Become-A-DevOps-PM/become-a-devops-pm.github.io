@@ -95,6 +95,31 @@ Cloud storage has transformed the way organizations manage and store data. With 
 - **Google Cloud**:
   - **Google Cloud Storage** for object storage and **Persistent Disks** for block storage.
 
+## Redundancy
+
+**Redundancy in storage** refers to the practice of duplicating data to ensure availability and reliability, even in the event of hardware or software failures. By implementing redundancy, storage systems can recover or continue operating without data loss.
+
+### Types of Redundancy
+
+1. **RAID (Redundant Array of Independent Disks)**:
+   - Combines multiple physical drives into one logical storage system.
+   - Different RAID levels offer varying balances of redundancy, performance, and cost:
+     - **RAID 1**: Mirroring (exact copy of data on two drives).
+     - **RAID 5**: Distributed parity, allowing recovery with one failed drive.
+     - **RAID 6**: Dual parity, tolerating two failed drives.
+     - **RAID 10**: Combines mirroring and striping for high performance and redundancy.
+
+2. **Cloud-Based Replication**:
+   - Data is replicated across geographically dispersed locations in the cloud.
+   - Ensures data availability even if an entire data center fails.
+
+3. **Snapshots and Backups**:
+   - **Snapshots**: Point-in-time copies of data stored locally or remotely.
+   - **Backups**: Regularly created copies of data stored offsite for disaster recovery.
+
+4. **Replication Across Systems**:
+   - Active-active or active-passive replication between servers or data centers ensures that if one fails, the other takes over.
+
 ## Conclusion
 
-Storage is crucial for IT infrastructure, supporting everything from file sharing to data processing. Modern solutions, including physical, virtual, and cloud storage, offer various capacities and performance levels. Understanding storage types and protocols is key to choosing the right solution for reliable data management.
+Storage ensures data availability, with aspects like performance, scalability, and redundancy. Solutions range from physical and virtualized systems to cloud storage.

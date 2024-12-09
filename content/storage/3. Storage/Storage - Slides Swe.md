@@ -15,30 +15,25 @@ center= true
 +++
 
 ## Vad är Lagring?
-- Avser att spara och komma åt data för framtida bruk.
-- Avgörande för applikationer, system och datadrivna operationer.
+- **Lagring** avser system och enheter som används för att spara, hämta och hantera data.
 
 ---
 
-## Typer av Lagring
-1. **Blocklagring**:
-   - Delar upp data i block av fast storlek.
-   - Används för databaser och applikationer (t.ex. AWS EBS, Azure Disk Storage).
+## Karakteristik för lagring
+**Kapacitet**
+- Den totala mängden data ett lagringssystem kan hantera.
+- Mäts i GB, TB eller PB för större system.
 
-2. **Fillagring**:
-   - Organiserar data i en hierarkisk struktur med filer och mappar.
-   - Perfekt för delad åtkomst (t.ex. NFS, SMB).
-
-3. **Objektlagring**:
-   - Lagrar data som objekt med metadata och unika ID:n.
-   - Lämplig för ostrukturerad data (t.ex. AWS S3, Azure Blob Storage).
+**Prestanda**
+- **Throughput**: Mängden data som överförs per sekund (t.ex. MB/s).
+- **Latens**: Tid det tar att få åtkomst till data efter en begäran.
 
 ---
 
-## Lagring i Molnmiljöer
-- **Molnbaserade lagringstjänster**:
-   - Erbjuder skalbara och hanterade lösningar.
-   - Exempel: Google Cloud Storage, Amazon S3.
+## Karakteristik för lagring
+**Redundans**
+- Replikerar data för att kunna återställa vid fel.
 
-- **Hybridlagring**:
-   - Kombinerar lokala och molnbaserade lösningar.
+- **RAID**: Kombinerar flera diskar för att förbättra prestanda, kapacitet och redundans.  
+- **Snapshots**: Ögonblicksbilder av data som lagras lokalt eller nära källan.  
+- **Backuper**: Regelbundna kopior av data som lagras externt för återställning.  
