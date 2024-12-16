@@ -16,6 +16,8 @@ In this exercise, you will create a secure, multi-tier architecture in Azure usi
 6. An **Application Gateway** in the Gateway subnet for managing HTTP traffic.
 7. An **App Server** (used as Provisioning Server to configure the database)
 
+![AzureScalableSolution](/AzureScalableSolution.png)
+
 ## 1. Create a Resource Group
 1. Navigate to the Azure Portal.
 2. Go to **Resource Groups** > **+ Create**.
