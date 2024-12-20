@@ -5,6 +5,10 @@ date = 2024-12-16
 draft = false
 +++
 
+> ### Note!
+>
+> This exercise can be rather costly, so please do not forget to decommission everything when you are done. Don´t leave it overnight.
+
 ## Overview
 
 In this exercise, you will create a secure, multi-tier architecture in Azure using the Azure Portal. You will set up:
