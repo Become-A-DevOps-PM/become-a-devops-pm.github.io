@@ -1,6 +1,6 @@
 +++
-title = "1: Build a Scalable Solution in Azure"
-weight = 1
+title = "4. Build a Scalable Solution in Azure"
+weight = 4
 date = 2024-12-16
 draft = false
 +++
@@ -102,27 +102,36 @@ In this exercise, you will create a secure, multi-tier architecture in Azure usi
 ## 6. Create a Virtual Machine Scale Set
 1. Navigate to **Virtual Machine Scale Sets** > **+ Create**.
 2. Enter the following details:
-   - **Name**: `DemoAppVMSS`
-   - **Resource Group**: `DemoRG`
-   - **Region**: `North Europe`
-   - **Orchestration mode**: `Uniform`
-   - **Image**: `Ubuntu 22.04 LTS`
-   - **Instance Count**: `2`
 
-   Network:
+	Basic Tab:
+	
+   - **Resource Group**: `DemoRG`
+   - **Name**: `DemoAppVMSS`
+   - **Region**: `North Europe` (Same as Resource Group)
+   - **Orchestration mode**: `Uniform`
+   - **Instance count**: `2` (Scaling mode: _Manually update the capacity: Maintain a fixed amount of instances_)
+   - **Image**: `Ubuntu 24.04 LTS - x64 Gen2`
+   - **Size**: `Standard_B1s`
+
+   Network Tab:
    
-   - **VNet**: `DemoVnet`
+   - **Virtual network**: `DemoVnet`
 
 	   Edit NIC:
 	   
 	   - **Subnet**: `DemoAppSubnet`
-	   - **Public IP**: None (optional for production).
+	   - **NIC network security group**: `None` (It will get the NSG from the subnet, which we provisioned earlier)
+	   - **Public IP address**: None (For demo purposes, you can enable a public IP for each individual VM here).
 
-   Management:
+   Management Tab:
    
-   - **Upgrade policy**: automatic
+   - **Upgrade policy**: Automatic
 
-   Advanced:
+   Health Tab:
+   
+   - **Enable application health monitoring**: Enable
+
+   Advanced Tab:
    
    - **Custom data**
    
@@ -236,14 +245,14 @@ In this exercise, you will create a secure, multi-tier architecture in Azure usi
 ## 7. Create an Application Gateway
 1. Navigate to **Load Balancers** > **Application Gateway** > **+ Create**.
 2. Enter the following details:
-   - **Name**: `DemoAppGateway`
    - **Resource Group**: `DemoRG`
+   - **Name**: `DemoAppGateway`
    - **Region**: `North Europe`
-   - **SKU**: `Standard_v2`
+   - **Tier (SKU)**: `Basic`
    - **Virtual network**: `DemoVnet`
    - **Subnet**: `DemoGatewaySubnet`
 3. Configure Frontend IP:
-   - **Public IP**: `AppGateway-PublicIP`
+   - **Public IPv4 address**: `AppGateway-PublicIP`
 4. Configure Backend Pool:
 	- **Add Backend Pool**: `backendpool`
 	- **Target type**: `VMSS`
@@ -409,18 +418,27 @@ In this exercise, you will create a secure, multi-tier architecture in Azure usi
 2. Click **Review + Create** > **Create**.
 
 ## 9. Create an Azure Bastion Host
+
+> **Note!**
+> 
+> This resource is quite expensive. Use it with caution and don´t forget to decommision it when you are done with your exercise. This tier is necessary in order to be able to utilize the az cli for login and use a local terminal to interact with your resources. There are less costly alternatives though.
+> 
+> - Bastion "Developer" tier. This is free and lets you login via a web based terminal in the Azure portal.
+> - Inbound NAT rules in Azure Load Balancer lets you port forward ports to instances atttached to the backend pool
+
 1. Navigate to **Bastions** > **+ Create**.
 2. Enter the following details:
    - **Name**: `DemoBastion`
    - **Resource Group**: `DemoRG`
    - **Region**: `North Europe`
-   - **VNet**: `DemoVnet`
+   - **Virtual network**: `DemoVnet`
    - **Subnet**: `AzureBastionSubnet`
    - **Public IP**: `Bastion-PublicIP`
 
    Advanced
    
    - Check: Native client support
+  
 3. Click **Review + Create** > **Create**.
 
 
