@@ -19,7 +19,7 @@ You can generate a self-signed certificate using **OpenSSL** (or PowerShell, if 
 ```bash
 openssl genrsa -out mySelfSigned.key 2048
 
-openssl req -new -key mySelfSigned.key -out mySelfSigned.csr -subj "/C=SE/ST=-/L=Molndal/O=CampusMolndal/CN=labappgw"
+openssl req -new -key mySelfSigned.key -out mySelfSigned.csr -subj "/C=SE/ST=-/L=Molndal/O=Campus/CN=labappgw"
 
 openssl x509 -req -in mySelfSigned.csr -signkey mySelfSigned.key -out mySelfSigned.crt -days 365
 
