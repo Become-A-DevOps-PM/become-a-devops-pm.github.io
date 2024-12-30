@@ -1,7 +1,7 @@
 +++
 title = "3. Enabling HTTPS with a Self-Signed Certificate"
 weight = 3
-date = 2024-12-31
+date = 2024-12-30
 draft = false
 +++
 
