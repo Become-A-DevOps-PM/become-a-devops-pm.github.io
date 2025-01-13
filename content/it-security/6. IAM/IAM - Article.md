@@ -5,6 +5,10 @@ date = 2025-01-13
 draft = false
 +++
 
+[Watch the presentation]({{< relref "IAM - Slides.md" >}})
+
+<!-- [Se presentationen på svenska]({{< relref "IAM - Slides.md" >}}) -->
+
 ## What is Identity and Access Management (IAM)?
 
 Identity and Access Management (IAM) is a framework of policies, technologies, and processes that ensures the right individuals have appropriate access to technology resources. IAM systems manage digital identities and control user access to critical information within an organization, safeguarding data from unauthorized access while facilitating legitimate use. By centralizing and automating the management of user identities and their access privileges, IAM enhances security, improves compliance, and streamlines operational efficiency.

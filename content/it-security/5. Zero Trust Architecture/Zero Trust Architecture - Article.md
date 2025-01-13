@@ -5,6 +5,10 @@ date = 2025-01-13
 draft = false
 +++
 
+[Watch the presentation]({{< relref "Zero Trust Architecture - Slides.md" >}})
+
+<!-- [Se presentationen på svenska]({{< relref "Zero Trust Architecture - Slides.md" >}}) -->
+
 ## What is Zero Trust Architecture?
 
 Zero Trust Architecture (ZTA) is a cybersecurity framework that operates on the principle of "never trust, always verify." Unlike traditional security models that assume everything inside an organization's network is trustworthy, Zero Trust Architecture requires strict verification for every user and device attempting to access resources, regardless of their location within or outside the network perimeter. This approach minimizes the risk of unauthorized access, data breaches, and lateral movement by adversaries within the network.

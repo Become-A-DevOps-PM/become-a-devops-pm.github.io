@@ -5,6 +5,10 @@ date = 2025-01-13
 draft = false
 +++
 
+[Watch the presentation]({{< relref "CIA Triad - Slides.md" >}})
+
+<!-- [Se presentationen på svenska]({{< relref "CIA Triad - Slides.md" >}}) -->
+
 ## What is the CIA Triad?
 
 The CIA Triad is a model in cybersecurity that outlines three core principles—Confidentiality, Integrity, and Availability, that are essential for protecting information. These principles provide a framework for organizations to develop and implement security policies and measures, to safeguarded sensitive data  against unauthorized access, tampering, and disruptions.
@@ -67,6 +71,7 @@ Availability ensures that information and resources are accessible to authorized
 The CIA Triad provides a framework for securing information and IT systems. By focusing on confidentiality, integrity, and availability, organizations can address a wide range of security challenges and ensure that their data and services remain protected against various threats.
 
 Additionally, the CIA Triad underpins many regulatory and compliance requirements, helping organizations meet standards such as GDPR, HIPAA, and PCI DSS.
+
 ## Conclusion
 
 The CIA Triad serves as a cornerstone in information security, and helps organizations in developing robust security strategies that protect data from a multitude of threats.

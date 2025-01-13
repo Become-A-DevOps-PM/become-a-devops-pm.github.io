@@ -5,6 +5,10 @@ date = 2025-01-13
 draft = false
 +++
 
+[Watch the presentation]({{< relref "Defense In Depth - Slides.md" >}})
+
+<!-- [Se presentationen på svenska]({{< relref "Defense In Depth - Slides.md" >}}) -->
+
 ## What is Defense in Depth?
 
 Defense in Depth (DiD) is a cybersecurity strategy that employs multiple layers of security to protect data, systems, and networks. Each layer addresses different aspects of potential vulnerabilities, creating redundancies that strengthen the overall security posture.

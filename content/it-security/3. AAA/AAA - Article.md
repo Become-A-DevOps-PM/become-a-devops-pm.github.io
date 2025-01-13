@@ -5,6 +5,10 @@ date = 2025-01-13
 draft = false
 +++
 
+[Watch the presentation]({{< relref "AAA - Slides.md" >}})
+
+<!-- [Se presentationen på svenska]({{< relref "AAA - Slides.md" >}}) -->
+
 ## What is AAA?
 
 AAA stands for Authentication, Authorization, and Accounting, and it is a critical framework in cybersecurity that manages user access and activity within systems and networks. By implementing AAA, organizations can ensure that only authorized individuals gain access to resources, determine what actions they can perform, and keep records of their activities. This structured approach helps maintain security, compliance, and accountability across an organization's IT infrastructure.

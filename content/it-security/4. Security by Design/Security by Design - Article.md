@@ -5,6 +5,10 @@ date = 2025-01-13
 draft = false
 +++
 
+[Watch the presentation]({{< relref "Security by Design - Slides.md" >}})
+
+<!-- [Se presentationen på svenska]({{< relref "Security by Design - Slides.md" >}}) -->
+
 ## What is Security by Design?
 
 Security by Design is a proactive approach to cybersecurity that integrates security considerations into every phase of system and software development. Rather than treating security as an afterthought or a separate component, Security by Design ensures that security measures are embedded from the outset. This methodology aims to create systems that are inherently secure, reducing vulnerabilities and minimizing the risk of breaches or attacks.
