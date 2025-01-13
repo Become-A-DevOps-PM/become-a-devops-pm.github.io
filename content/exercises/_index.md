@@ -1,4 +1,4 @@
 +++
 title = "Exercises"
-weight = 6
+weight = 7
 +++
