@@ -1,5 +1,5 @@
 +++
 title = "Tutorials"
-weight = 7
+weight = 9
 head ="<label>Labs</label> "
 +++
