@@ -1,5 +1,5 @@
 +++
-title = "List Subscribers with Access Control and Unsubscribe Option"
+title = "7. List Subscribers (only logged in users)"
 weight = 7
 date = 2025-01-28
 draft = false
